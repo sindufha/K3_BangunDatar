@@ -14,7 +14,20 @@ public class K3BangunDatar {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Segitiga s = new Segitiga();
+        
+        s.setalas(6);
+        s.settinggi(8);
+        s.setsisiA(6);
+        s.setsisiB(8);
+        s.setsisiC(10);
+        
+        System.out.println("Alas   : " + s.getalas());
+        System.out.println("Tinggi : " + s.gettinggi());
+        System.out.println("Sisi A : " + s.getsisiA());
+        System.out.println("Sisi B : " + s.getsisiB());
+        System.out.println("Sisi C : " + s.getsisiC());
+    
     }
     
 }
