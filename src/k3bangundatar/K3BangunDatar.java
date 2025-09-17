@@ -1,20 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package k3bangundatar;
 
-/**
- *
- * @author MyBook Hype AMD
- */
 public class K3BangunDatar {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        PersegiPanjang pp =new PersegiPanjang();
+        
+        pp.setpanjang(10);
+        pp.setlebar(5);
+        pp.settinggi(7);
+        
+        System.out.println("panjang : "+ pp.getpanjang());
+        System.out.println("lebar : "+ pp.getlebar());
+        System.out.println("tinggi : "+ pp.gettinggi());
+        System.out.println("luas : "+ pp.hitungluas());
+        System.out.println("keliling : "+ pp.hitungkeliling());
     }
     
 }
