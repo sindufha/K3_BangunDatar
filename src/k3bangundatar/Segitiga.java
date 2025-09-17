@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package k3bangundatar;
 
-/**
- *
- * @author MyBook Hype AMD
- */
 public class Segitiga {
     double alas, tinggi, sisiA, sisiB, sisiC;
     
@@ -52,5 +44,25 @@ public class Segitiga {
     
     public double hitungkeliling(){
         return sisiA * sisiB * sisiC;
+    }
+    
+    public static void main(String[] args) {
+        Segitiga s = new Segitiga();
+        
+        s.setalas(6);
+        s.settinggi(8);
+        s.setsisiA(6);
+        s.setsisiB(8);
+        s.setsisiC(10);
+        
+        System.out.println("Luas dan Keliling Segitiga\n");
+        System.out.println("Alas   : " + s.getalas());
+        System.out.println("Tinggi : " + s.gettinggi());
+        System.out.println("Sisi A : " + s.getsisiA());
+        System.out.println("Sisi B : " + s.getsisiB());
+        System.out.println("Sisi C : " + s.getsisiC());
+        System.out.println("===================");
+        System.out.println("Luas     : " + s.hitungluas());
+        System.out.println("Keliling : " + s.hitungkeliling());
     }
 }

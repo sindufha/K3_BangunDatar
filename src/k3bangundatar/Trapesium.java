@@ -45,7 +45,28 @@ public class Trapesium {
     }
     
     public double hitungkeliling(){
-        return sisiAtas + sisiBawah + sisiMiring1 + sisiMiring2;      
+        return sisiAtas + sisiBawah + sisiMiring1 + sisiMiring2;       
+    }
+    
+    public static void main(String[] args) {
+        
+        Trapesium t = new Trapesium();
+       
+        t.setsisiAtas(6);
+        t.setsisiBawah(10);
+        t.setsisiMiring1(5);
+        t.setsisiMiring2(7);
+        t.settinggi(8);
+        
+        System.out.println("\nLuas dan Keliling Trapesium\n");
+        System.out.println("Sisi Atas     : " + t.getsisiAtas());
+        System.out.println("Sisi Bawah    : " + t.getsisiBawah());
+        System.out.println("Sisi Miring A : " + t.getsisiMiring1());
+        System.out.println("Sisi Miring B : " + t.getsisiMiring2());
+        System.out.println("Sisi Tinggi   : " + t.gettinggi());
+        System.out.println("===================");
+        System.out.println("luas     : " + t.hitungLuas());
+        System.out.println("Keliling : " + t.hitungkeliling());
     }
   
 }
