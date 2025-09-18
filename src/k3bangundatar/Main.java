@@ -1,20 +1,9 @@
 package k3bangundatar;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
+public class Main {
 
 
-/**
- *
- * @author MyBook Hype AMD
- */
-public class K3BangunDatar {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         BelahKetupat bk = new BelahKetupat();
         
@@ -28,5 +17,5 @@ public class K3BangunDatar {
         System.out.println("Luas :"+bk.hitungluas());
         System.out.println("Keliling :"+bk.hitungKeliling());
     }
-    
+
 }
