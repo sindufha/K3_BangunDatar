@@ -35,10 +35,10 @@ public class LayangLayang {
     public double getSisiPan (){
         return this.sisipan;
     }
-    public double getLuas (){
+    public double setLuas (){
         return this.luas = 0.5 * diagonal1 * diagonal2; 
     }
-    public double getKeliling (){
+    public double setKeliling (){
         return this.keliling = 2 * (sisipan + sisipen);
     }
 }

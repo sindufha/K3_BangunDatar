@@ -23,8 +23,8 @@ public class K3BangunDatar {
         layang.setSisiPen(10);
         
         
-        System.out.println("Luas : " + layang.getLuas());
-        System.out.println("Keliling : " + layang.getKeliling());
+        System.out.println("Luas : " + layang.setLuas());
+        System.out.println("Keliling : " + layang.setKeliling());
         
         
     }
