@@ -17,10 +17,10 @@ public class Persegi {
     public double getsisi(){
         return this.sisi;
     }
-    public double hitungLuas(){
+    public double setLuas(){
         return sisi * sisi;
     }
-    public double hitungKeliling(){
+    public double setKeliling(){
         return 4 * sisi;
     }
 }
