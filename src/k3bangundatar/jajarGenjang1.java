@@ -45,6 +45,7 @@ public class jajarGenjang1 extends javax.swing.JFrame {
         oLuas = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 102, 102));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel1.setText("JAJAR GENJANG");
@@ -194,8 +195,8 @@ public class jajarGenjang1 extends javax.swing.JFrame {
         
         oAlas.setText(String.valueOf(jjg.getAlas()));
         oTInggi.setText(String.valueOf(jjg.getTinggi()));
-        oLuas.setText(String.valueOf(jjg.hitungLuas()));
-        oKeliling.setText(String.valueOf(jjg.hitungKeliling()));
+        oLuas.setText(String.valueOf(jjg.Luas()));
+        oKeliling.setText(String.valueOf(jjg.Keliling()));
     }//GEN-LAST:event_tHitungActionPerformed
 
     /**

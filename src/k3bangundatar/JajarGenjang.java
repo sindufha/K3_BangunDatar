@@ -8,7 +8,7 @@ package k3bangundatar;
  *
  * @author MyBook Hype AMD
  */
-public class JajarGenjang {
+public class JajarGenjang extends BangunDatar{
     double alas;
     double tinggi;
     double sisiMiring;
@@ -40,12 +40,21 @@ public class JajarGenjang {
     }
 
     // Method untuk menghitung luas
-    public double hitungLuas() {
+    public double Luas() {
         return alas * tinggi;
     }
 
     // Method untuk menghitung keliling
-    public double hitungKeliling() {
+    public double Keliling() {
         return 2 * (alas + sisiMiring);
+    }
+    public void tampilkan(){
+        System.out.println("===JAJAR GENJANG===");
+        System.out.println("alas : "+ alas);
+        System.out.println("tinggi : "+ tinggi);
+        System.out.println("sisiMiring : "+ sisiMiring);
+        System.out.println("luas : "+ Luas());
+        System.out.println("keliling : "+ Keliling());
+
     }
 }
