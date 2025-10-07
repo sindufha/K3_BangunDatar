@@ -324,7 +324,7 @@ public class FrameSegitiga extends javax.swing.JFrame {
 
     private void btnHitungActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHitungActionPerformed
         // TODO add your handling code here:
-
+/*
         Segitiga sgt = new Segitiga();
         sgt.setalas(Double.parseDouble(tAlas.getText()));
         sgt.settinggi(Double.parseDouble(tTinggi.getText()));
