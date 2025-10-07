@@ -4,7 +4,7 @@
  */
 package k3bangundatar;
 
-import com.formdev.flatlaf.FlatDarkLaf;
+
 
 /**
  *
@@ -262,11 +262,11 @@ public class FrameBelahKetupat extends javax.swing.JFrame {
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
-        try {
+        /*try {
             FlatDarkLaf.setup();  // Atau FlatLightLaf.setup()
         } catch (Exception ex) {
             System.err.println("Failed to initialize FlatLaf");
-        }
+        } */
         //</editor-fold>
 
         /* Create and display the form */
