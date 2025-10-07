@@ -15,6 +15,10 @@ public class K3BangunDatar {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Persegi p = new Persegi();
+        p.setsisi(5);
+        
     }
     
 }
