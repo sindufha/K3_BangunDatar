@@ -2,8 +2,17 @@ package k3bangundatar;
 
 
 public class Main {
+    
+    double luas, keliling;
 
+    public double getLuas() {
+        return luas;
+    }
 
+    public double getKeliling() {
+        return keliling;
+    }
+    
     public static void main(String[] args) {
         System.out.println("Program Menghitung Luas Dan Keliling Bangun Datar");
         System.out.println("============Dibuat Oleh Kelompok 3================");

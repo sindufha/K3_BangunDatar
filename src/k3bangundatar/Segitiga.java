@@ -1,6 +1,6 @@
 package k3bangundatar;
 
-public class Segitiga extends BangunDatar{
+public class Segitiga extends Main{
     double alas, tinggi, sisiA, sisiB, sisiC;
     
     public void setalas(double als) {
