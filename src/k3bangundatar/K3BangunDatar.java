@@ -15,16 +15,6 @@ public class K3BangunDatar {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        LayangLayang layang = new LayangLayang();
-        
-        layang.setDiagonal1(12);
-        layang.setDiagonal2(24);
-        layang.setSisiPan(20);
-        layang.setSisiPen(10);
-        
-        
-        System.out.println("Luas : " + layang.setLuas());
-        System.out.println("Keliling : " + layang.setKeliling());
         
         
     }

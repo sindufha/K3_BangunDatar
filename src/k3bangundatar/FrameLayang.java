@@ -253,18 +253,7 @@ public class FrameLayang extends javax.swing.JFrame {
 
     private void bHitungActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bHitungActionPerformed
         // TODO add your handling code here:
-        LayangLayang layang = new LayangLayang();
-        layang.setDiagonal1(Double.parseDouble(tDiagonal1.getText()));
-        layang.setDiagonal2(Double.parseDouble(tDiagonal2.getText()));
-        layang.setSisiPan(Double.parseDouble(tSisiPan.getText()));
-        layang.setSisiPen(Double.parseDouble(tSisiPen.getText()));
-
-        vDiagonal1.setText(String.valueOf(layang.getDiagonal1()));
-        vDiagonal2.setText(String.valueOf(layang.getDiagonal2()));
-        vSisiPan.setText(String.valueOf(layang.getSisiPan()));
-        vSisiPen.setText(String.valueOf(layang.getSisiPen()));
-        vLuas.setText(String.valueOf(layang.setLuas()));
-        vKeliling.setText(String.valueOf(layang.setKeliling()));
+        
     }//GEN-LAST:event_bHitungActionPerformed
 
     private void tSisiPanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tSisiPanActionPerformed

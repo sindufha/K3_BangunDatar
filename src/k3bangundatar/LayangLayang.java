@@ -8,37 +8,39 @@ package k3bangundatar;
  *
  * @author MyBook Hype AMD
  */
-public class LayangLayang  {
-    double diagonal1, diagonal2, sisipen, sisipan, luas, keliling;
+public class LayangLayang extends BangunDatar{
+    double diagonal1, diagonal2, sisipen, sisipan;
     
-    public void setDiagonal1 (double diagonalKu){
-        this.diagonal1=diagonalKu;
-    } 
-    public double getDiagonal1 (){
-        return this.diagonal1;
-    } 
-    public void setDiagonal2 (double diaoganl2){
-        this.diagonal2 = diaoganl2;
-    }
-    public double getDiagonal2 (){
-        return this.diagonal2;
-    }
-    public void setSisiPen (double sisiPenKu){
-        this.sisipen = sisiPenKu;
-    }
-    public double getSisiPen (){
-        return this.sisipen;
-    }
-    public void setSisiPan (double sisiPanKu){
-        this.sisipan = sisiPanKu;
-    }
-    public double getSisiPan (){
-        return this.sisipan;
-    }
-    public double setLuas (){
-        return this.luas = 0.5 * diagonal1 * diagonal2; 
-    }
-    public double setKeliling (){
-        return this.keliling = 2 * (sisipan + sisipen);
-    }
+public LayangLayang (double d1, double d2, double sisiA, double sisiB){
+    this.diagonal1 = d1 ;
+    this.diagonal2 = d2 ;
+    this.sisipen = sisiA ;
+    this.sisipan = sisiB ;
 }
+    public double getLuas(){
+        luas = 0.5 * diagonal1 * diagonal2;
+        return 0;
+    }
+    
+    public double getKeliling(){
+        keliling = 2 * (sisipen + sisipan); 
+        return 0;
+    }
+    
+    
+        @Override
+    public void tampilkan() {
+        System.out.println("=== LAYANG-LAYANG ===");
+        System.out.println("Diagonal 1      : " + diagonal1);
+        System.out.println("Diagonal 2      : " + diagonal2);
+        System.out.println("Sisi Pendek     : " + sisipen);
+        System.out.println("Sisi Panjang    : " + sisipan);
+        System.out.println("Luas            : " + luas);
+        System.out.println("Keliling        : " + keliling);
+
+        
+    }
+    
+}
+
+
