@@ -29,6 +29,6 @@ public class BangunDatar1 {
     // Method umum yang nanti akan dioverride oleh subclass
     void hitungLuas() {}
     void hitungKeliling() {}
-    
+    void tampilkan(){}
 
 }
