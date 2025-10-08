@@ -239,18 +239,7 @@ public class FrameBelahKetupat extends javax.swing.JFrame {
     }//GEN-LAST:event_tSisiActionPerformed
 
     private void bHitungActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bHitungActionPerformed
-      BelahKetupat bk = new BelahKetupat();
-      
-      bk.setsisi(Double.parseDouble(tSisi.getText()));
-      bk.setd1(Double.parseDouble(tD1.getText()));
-      bk.setd2(Double.parseDouble(tD2.getText()));
-      
-      vSisi.setText(String.valueOf(bk.getsisi()));
-      vDiagonal1.setText(String.valueOf(bk.getd1()));
-      vdiagonal2.setText(String.valueOf(bk.getd2()));
-      vLuas.setText(String.valueOf(bk.hitungluas()));
-      vKeliling.setText(String.valueOf(bk.hitungKeliling()));
-      
+
     }//GEN-LAST:event_bHitungActionPerformed
 
     /**
