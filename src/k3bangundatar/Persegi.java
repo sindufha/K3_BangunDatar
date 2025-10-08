@@ -8,19 +8,28 @@ package k3bangundatar;
  *
  * @author MyBook Hype AMD
  */
-public class Persegi {
+public class Persegi extends BangunDatar{
     double sisi;
     
-    public void setsisi(double sisi){
+    public Persegi(double sisi) {
         this.sisi = sisi;
     }
-    public double getsisi(){
-        return this.sisi;
-    }
-    public double hitungLuas(){
+    
+    public double Luas(){
         return sisi * sisi;
     }
-    public double hitungKeliling(){
+    public double Keliling(){
         return 4 * sisi;
+    }
+    @Override
+    public void tampilkan(){
+        super.tampilkan();
+        System.out.println("====PERSEGI===");
+        System.out.println("Sisi : " + sisi);
+        System.out.println("Luas : " + Luas());
+        System.out.println("Keliling : " + Keliling());
+        
+        
+        
     }
 }
