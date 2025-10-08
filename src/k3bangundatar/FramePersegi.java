@@ -176,8 +176,8 @@ public class FramePersegi extends javax.swing.JFrame {
         persegi.setsisi(Double.parseDouble(tSisi.getText()));
 
         vSisi.setText(String.valueOf(persegi.getsisi()));
-        vLuasPersegi.setText(String.valueOf(persegi.setLuas()));
-        vKelilingPersegi.setText(String.valueOf(persegi.setKeliling()));
+        vLuasPersegi.setText(String.valueOf(persegi.Luas()));
+        vKelilingPersegi.setText(String.valueOf(persegi.Keliling()));
     }//GEN-LAST:event_bHitungActionPerformed
 
     /**
