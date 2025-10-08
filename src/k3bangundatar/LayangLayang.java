@@ -8,7 +8,7 @@ package k3bangundatar;
  *
  * @author MyBook Hype AMD
  */
-public class LayangLayang {
+public class LayangLayang  {
     double diagonal1, diagonal2, sisipen, sisipan, luas, keliling;
     
     public void setDiagonal1 (double diagonalKu){
