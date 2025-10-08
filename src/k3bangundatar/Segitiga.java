@@ -20,7 +20,9 @@ public class Segitiga extends BangunDatar{
         keliling = sisiA + sisiB + sisiC;
     }
 
+    @Override
     public void tampilkan() {
+        super.tampilkan();
         System.out.println("=== SEGITIGA ===");
         System.out.println("Alas      : " + alas);
         System.out.println("Tinggi    : " + tinggi);
