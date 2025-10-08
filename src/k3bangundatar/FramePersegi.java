@@ -172,12 +172,7 @@ public class FramePersegi extends javax.swing.JFrame {
 
     private void bHitungActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bHitungActionPerformed
         // TODO add your handling code here:
-        Persegi persegi = new Persegi();
-        persegi.setsisi(Double.parseDouble(tSisi.getText()));
-
-        vSisi.setText(String.valueOf(persegi.getsisi()));
-        vLuasPersegi.setText(String.valueOf(persegi.Luas()));
-        vKelilingPersegi.setText(String.valueOf(persegi.Keliling()));
+       
     }//GEN-LAST:event_bHitungActionPerformed
 
     /**

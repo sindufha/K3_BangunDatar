@@ -11,12 +11,10 @@ package k3bangundatar;
 public class Persegi extends BangunDatar{
     double sisi;
     
-    public void setsisi(double sisi){
+    public Persegi(double sisi) {
         this.sisi = sisi;
     }
-    public double getsisi(){
-        return this.sisi;
-    }
+    
     public double Luas(){
         return sisi * sisi;
     }
