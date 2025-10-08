@@ -11,5 +11,9 @@ public class BangunDatar {
     public double getKeliling() {
         return keliling;
     }
+public void tampilkan(){
+    System.out.println("Luas : "+luas);
+    System.out.println("Keliling : "+keliling);
+}
     
 }
