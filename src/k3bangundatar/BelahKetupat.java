@@ -1,5 +1,5 @@
 package k3bangundatar;
-public class BelahKetupat extends BangunDatar {
+public class BelahKetupat extends BangunDatar1 {
     double sisi,d1,d2,luas,keliling;
     
     public BelahKetupat(double d1, double d2, double sisi){
@@ -17,7 +17,9 @@ public class BelahKetupat extends BangunDatar {
     void hitungKeliling(){
         keliling = 2 * sisi * sisi;
     }
+    @Override
     public void tampilkan(){
+        super.tampilkan();
         System.out.println("=== Belah Ketupat===");
         System.out.println("Panjang  d1 = " + d1);
         System.out.println("Panjang d2 = " + d2);
