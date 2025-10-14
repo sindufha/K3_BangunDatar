@@ -25,7 +25,7 @@ public class PersegiPanjang extends BangunDatar {
         System.out.println("Lebar     : " + lebar);
         System.out.println("Luas      : " + luas);
         System.out.println("Keliling  : " + keliling);
-    }
+    } 
 }
   
    
