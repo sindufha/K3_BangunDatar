@@ -8,44 +8,32 @@ package k3bangundatar;
  *
  * @author MyBook Hype AMD
  */
-public class JajarGenjang {
+public class JajarGenjang extends BangunDatar{
     double alas;
     double tinggi;
     double sisiMiring;
 
-    // Setter (set method)
-    public void setAlas(double alas) {
-        this.alas = alas;
-    }
-
-    public void setTinggi(double tinggi) {
-        this.tinggi = tinggi;
-    }
-
-    public void setSisiMiring(double sisiMiring) {
-        this.sisiMiring = sisiMiring;
-    }
-
-    // Getter (get method)
-    public double getAlas() {
-        return alas;
-    }
-
-    public double getTinggi() {
-        return tinggi;
-    }
-
-    public double getSisiMiring() {
-        return sisiMiring;
-    }
-
+ public JajarGenjang (double a, double t, double sM){
+     this.alas = a;
+     this.tinggi = t;
+     this.sisiMiring = sM;
+ }
     // Method untuk menghitung luas
-    public double hitungLuas() {
+    public double getLuas() {
         return alas * tinggi;
     }
-
     // Method untuk menghitung keliling
-    public double hitungKeliling() {
+    public double getKeliling() {
         return 2 * (alas + sisiMiring);
+    }
+    @Override
+    public void tampilkan(){
+        System.out.println("===JAJAR GENJANG===");
+        System.out.println("alas : "+ alas);
+        System.out.println("tinggi : "+ tinggi);
+        System.out.println("sisiMiring : "+ sisiMiring);
+        System.out.println("luas : "+ getLuas());
+        System.out.println("keliling : "+ getKeliling());
+
     }
 }
