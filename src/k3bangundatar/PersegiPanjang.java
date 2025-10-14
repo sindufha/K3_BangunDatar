@@ -2,37 +2,31 @@
 package k3bangundatar;
 
 
-public class PersegiPanjang {
-   double panjang, lebar,tinggi;
-   
-   public void setpanjang(double p){
-        this.panjang = p;
+public class PersegiPanjang extends BangunDatar {
+    double panjang, lebar;
+
+    public PersegiPanjang(double panjang, double lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
     }
-   public void setlebar(double l){
-        this.lebar = l;
+
+    public void Luas() {
+        luas = panjang * lebar;
     }
-   public void settinggi(double t){
-        this.tinggi = t;
+
+    public void Keliling() {
+        keliling = 2 * (panjang + lebar);
     }
-   
-   public double getpanjang(){
-        return this.panjang;
+
+    @Override
+    public void tampilkan() {
+        System.out.println("=== PERSEGI PANJANG ===");
+        System.out.println("Panjang   : " + panjang);
+        System.out.println("Lebar     : " + lebar);
+        System.out.println("Luas      : " + luas);
+        System.out.println("Keliling  : " + keliling);
     }
-   public double getlebar(){
-        return this.lebar;
-    }
-   public double gettinggi(){
-        return this.tinggi;
-    }
-   public double hitungluas(){
-        return panjang * lebar;
-   }    
-   public double hitungkeliling(){
-        return 2 * panjang + lebar;
-    }
-        
-     
-     
+}
   
    
    
@@ -40,4 +34,4 @@ public class PersegiPanjang {
    
    
    
-}
+
