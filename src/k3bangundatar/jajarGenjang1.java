@@ -187,7 +187,7 @@ public class jajarGenjang1 extends javax.swing.JFrame {
 
     private void tHitungActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tHitungActionPerformed
         // TODO add your handling code here:
-        
+       /**
         JajarGenjang jjg = new JajarGenjang();
         jjg.setAlas(Double.parseDouble(tAlas.getText()));
         jjg.setTinggi(Double.parseDouble(tTinggi.getText()));
@@ -196,9 +196,10 @@ public class jajarGenjang1 extends javax.swing.JFrame {
         oAlas.setText(String.valueOf(jjg.getAlas()));
         oTInggi.setText(String.valueOf(jjg.getTinggi()));
         oLuas.setText(String.valueOf(jjg.Luas()));
-        oKeliling.setText(String.valueOf(jjg.Keliling()));
+        oKeliling.setText(String.valueOf(jjg.Keliling()));*/
     }//GEN-LAST:event_tHitungActionPerformed
-
+    
+       
     /**
      * @param args the command line arguments
      */
